@@ -3,7 +3,6 @@ const Dev = require('../models/Dev');
 const parseStringAsArray = require('../utils/paseStringAsArray');
 
 module.exports = {
-    
     async index(request, response){
         const devs = await Dev.find();
         return response.json(devs);
@@ -27,7 +26,7 @@ module.exports = {
                 coordinates: [longitude, latitude],
             };
         
-            const dev = await Dev.create({
+                dev = await Dev.create({
                 github_username,
                 name,
                 avatar_url,

@@ -50,8 +50,10 @@ function App() {
       latitude,
       longitude,
     })
-
-    console.log(response.data);
+    
+    setGithub_username('');
+    setTechs('');
+    setDevs([...devs, response.data]);
   }
 
   return (
