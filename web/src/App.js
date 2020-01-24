@@ -3,6 +3,7 @@ import Header from './Header';
 import './global.css';
 import './Sidebar.css';
 import './App.css';
+import './Main.css';
 function App() {
 
 
@@ -32,8 +33,57 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
-      <main>
 
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://www.gettyimages.pt/gi-resources/images/RoyaltyFree/Apr17Update/ColourSurge1.jpg"/>
+              <div className="user-info">
+                <strong>Lucas Laricchia</strong>
+                <span>C++, Javascript, NodeJS</span>
+              </div>
+            </header>
+            <p>Mechatronics Engenieer</p>
+            <a href="twitch.tv/toalhinhadota">Acessar Twtich</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://www.gettyimages.pt/gi-resources/images/RoyaltyFree/Apr17Update/ColourSurge1.jpg"/>
+              <div className="user-info">
+                <strong>Lucas Laricchia</strong>
+                <span>C++, Javascript, NodeJS</span>
+              </div>
+            </header>
+            <p>Mechatronics Engenieer</p>
+            <a href="twitch.tv/toalhinhadota">Acessar Twtich</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://www.gettyimages.pt/gi-resources/images/RoyaltyFree/Apr17Update/ColourSurge1.jpg"/>
+              <div className="user-info">
+                <strong>Lucas Laricchia</strong>
+                <span>C++, Javascript, NodeJS</span>
+              </div>
+            </header>
+            <p>Mechatronics Engenieer</p>
+            <a href="twitch.tv/toalhinhadota">Acessar Twtich</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://www.gettyimages.pt/gi-resources/images/RoyaltyFree/Apr17Update/ColourSurge1.jpg"/>
+              <div className="user-info">
+                <strong>Lucas Laricchia</strong>
+                <span>C++, Javascript, NodeJS</span>
+              </div>
+            </header>
+            <p>Mechatronics Engenieer</p>
+            <a href="twitch.tv/toalhinhadota">Acessar Twtich</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
