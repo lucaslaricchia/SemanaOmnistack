@@ -12,6 +12,13 @@ main ul{
 
 }
 
+@media (max-width: 650px){
+    main ul{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
 li.dev-item{
     background: #FFF;
     box-shadow: 0 0 3px 0;
